@@ -1,0 +1,78 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm]{geometry}
+\usepackage{fontawesome5}  % Make sure you have FontAwesome5 installed
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+
+%----------FONT--------------
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+%----------SECTIONS----------
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+
+%----------COMMANDS----------
+\newcommand{\contactInfo}[2]{\noindent\textbf{#1:} #2\\}
+\newcommand{\skill}[2]{\noindent#1: #2\\}
+\newcommand{\heading}[1]{\section*{\uppercase{#1}}}
+
+%----------BEGIN DOCUMENT----------
+\begin{document}
+
+%----------HEADER----------
+\begin{center}
+    {\Huge \textbf{MUHAMMAD TALHA FAYAZ}}\\[4pt]
+    \href{mailto:mohammad211308@gmail.com}{mohammad211308@gmail.com} \quad
+    \faPhone\ +92-3255922953 \quad
+    \faMapMarker*{} Peshawar, Pakistan \quad
+    \href{https://www.linkedin.com/in/Talha-Fayaz}{\faLinkedin\ linkedin.com/in/Talha-Fayaz}
+\end{center}
+
+%----------SUMMARY----------
+\heading{Professional Summary}
+Highly motivated and detail-oriented computer science graduate with hands-on experience in Machine learning,Deep learning, Python programming, and project management. Strong problem-solving skills and a passion for learning new technologies.
+
+%----------EDUCATION----------
+\heading{Education}
+\textbf{Bachelor of Science in Artificial Intelligence(continue)} \\
+City University  Peshawar, Pakistan \\
+
+%----------EXPERIENCE----------
+\
+
+%----------PROJECTS----------
+
+
+%----------SKILLS----------
+\heading{Skills}
+\begin{tabular}{ll}
+\faCode{}        & Python, , C++ \\
+\faLaptopCode{}  & ML,DL libraries \\
+%\faDatabase{}    & MySQL, SQLite \\
+\faPenNib{}      & \LaTeX \\
+\faTools{}       & VS Code\\
+\end{tabular}
+
+%----------CERTIFICATIONS----------
+\heading{Certifications}
+\begin{itemize}[leftmargin=*]
+    \item Python for Everybody – Coursera
+    \item Machine learning – netacade
+\end{itemize}
+
+%----------LANGUAGES----------
+\heading{Languages}
+\begin{itemize}[leftmargin=*]
+    \item English – Professional Working Proficiency
+    \item Urdu – Native
+\end{itemize}
+
+%----------INTERESTS----------
+\heading{Interests}
+Open-source contribution, ML,DL projects 
+
+\end{document}
